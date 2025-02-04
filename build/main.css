@@ -1,0 +1,87 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+#areasdeatuacao ul {
+  text-align: center;
+}
+#areasdeatuacao ul li {
+  padding: 8px;
+  margin: 0px 0px 10px 0px;
+  background-image: url(../imagens/fundo-cinzaa.png);
+  border-radius: 0 24px;
+  background-repeat: repeat;
+  background-size: contain;
+}
+#areasdeatuacao ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  font-size: 20px;
+}
+#areasdeatuacao ul li a span {
+  font-size: 32px;
+  color: #9C8051;
+}
+#areasdeatuacao ul li:hover {
+  transition: 0.5s;
+  scale: 1.05;
+}
+
+#header {
+  background-color: #002954;
+  color: white;
+}
+#header .material-symbols-outlined {
+  color: #9C8051;
+  font-size: 32px;
+  font-weight: 600;
+}
+#header .menu-item {
+  padding: 2px;
+}
+#header .menu-item a {
+  padding: 5px;
+  font-size: 18px;
+  color: white;
+}
+#header .menu-item a:hover {
+  background-color: #9C8051;
+  transition: 0.5s;
+  scale: 1.02;
+}
+#header .menu-item .nav-link.active {
+  background-color: #9C8051;
+}
+
+#home {
+  padding: 10px;
+}
+#home h1 {
+  padding: 10px 0px;
+}
+#home a {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 5px;
+  border-radius: 20px;
+  text-align: center;
+  margin: 10px 0px;
+  width: 40%;
+  background-color: #9C8051;
+}
+#home a:hover {
+  background-color: #002954;
+  transition: 0.5s;
+  scale: 1.03;
+}
+#home img {
+  margin-top: 16px;
+  max-width: 420px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=main.css.map */

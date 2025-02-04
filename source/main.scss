@@ -1,0 +1,60 @@
+@use 'config.scss';
+@use 'cores.scss';
+@use 'areas-de-atuação.scss';
+$corprincipal:'#002954';
+$corsecundaria:'#9C8051';
+$corcinza:'#5C5447';
+#header{
+    background-color: #002954;
+    color: white;
+
+    .material-symbols-outlined{
+        color: #9C8051;
+        font-size: 32px;
+        font-weight:600;
+    }
+    .menu-item{
+        padding: 2px;
+        a{
+            padding: 5px;
+            font-size: 18px;
+            color: white;
+        }
+        & a:hover{
+            background-color: #9C8051;
+            transition: 0.5s;
+            scale: 1.02;
+        }
+        .nav-link.active{
+                background-color: #9C8051;
+            }
+    }
+}
+#home{
+    padding: 10px;
+    h1{
+        padding: 10px 0px;
+    }
+    a{
+        color: white;
+        font-size: 20px;
+        font-weight:300;
+        padding: 5px;
+        border-radius: 20px;
+        text-align: center;
+        margin: 10px 0px;
+        width: 40%;
+        background-color: #9C8051;
+    }
+    & a:hover{
+        background-color: #002954;
+        transition: 0.5s;
+        scale: 1.03;
+        
+    }
+    img{
+        margin-top: 16px;
+        max-width: 420px;
+        width: 100%;
+    }
+}

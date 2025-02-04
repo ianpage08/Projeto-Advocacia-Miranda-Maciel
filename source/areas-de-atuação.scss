@@ -1,0 +1,30 @@
+#areasdeatuacao{
+    ul {
+        text-align: center;
+        
+        li{
+            padding: 8px;
+            margin: 0px 0px 10px 0px;
+            background-image: url(../imagens/fundo-cinzaa.png);
+            border-radius: 0 24px ;
+            background-repeat: repeat;
+            background-size: contain;
+            a{
+                text-decoration: none;
+                color: black;
+                font-weight: bolder;
+                font-size: 20px;
+                span{
+                    font-size: 32px;
+                    
+                    color: #9C8051;
+                }
+            }
+            
+        }
+        & li:hover{
+            transition: 0.5s;
+                scale: 1.05;
+            }
+    }
+}
