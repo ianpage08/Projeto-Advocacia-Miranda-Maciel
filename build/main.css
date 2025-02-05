@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+#areasdeatuacao h2 {
+  color: #9C8051;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.493);
+  padding-top: 16px;
+}
+#areasdeatuacao .linha {
+  padding-top: 16px;
+  color: #000000;
+}
 #areasdeatuacao ul {
   text-align: center;
 }
@@ -28,6 +37,36 @@
 #areasdeatuacao ul li:hover {
   transition: 0.5s;
   scale: 1.05;
+}
+
+#diferencial {
+  background-color: rgb(83, 83, 83);
+}
+#diferencial h2 {
+  font-weight: lighter;
+  color: #f7cd86;
+  padding: 16px 0px;
+}
+#diferencial h3 {
+  font-size: 1.6em;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+#diferencial hr {
+  padding: 16px 0px;
+  color: #f7cd86;
+}
+#diferencial .ico-d {
+  font-size: 3em;
+  padding: 16px;
+  background-color: #f7cd86;
+  border-radius: 50%;
+}
+#diferencial p {
+  font-weight: lighter;
+  color: #f7cd86;
+  padding: 16px 0;
+  font-size: 1.5em;
 }
 
 #header {
