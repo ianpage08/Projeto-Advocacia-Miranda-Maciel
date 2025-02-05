@@ -39,6 +39,31 @@
   scale: 1.05;
 }
 
+#faq #header-faq {
+  text-align: center;
+}
+#faq #header-faq h2 {
+  padding-top: 26px;
+  font-size: 20px;
+  font-weight: lighter;
+  color: #9C8051;
+}
+#faq #header-faq h3 {
+  font-size: 2.5em;
+}
+#faq #header-faq p {
+  font-weight: bold;
+}
+#faq #header-faq hr {
+  border-color: #CCB474;
+  border: 1px solid #786A44;
+}
+#faq .accordion-button {
+  text-align: left;
+  background-color: #D5C9A7;
+  color: rgb(0, 0, 0);
+}
+
 #diferencial {
   background-color: rgb(83, 83, 83);
 }
@@ -67,6 +92,41 @@
   color: #f7cd86;
   padding: 16px 0;
   font-size: 1.5em;
+}
+
+#atendimento {
+  margin-top: 32px;
+  background-image: url(../imagens/fundoatentimentocinza.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#atendimento #header-atendimento {
+  text-align: center;
+}
+#atendimento #header-atendimento h2 {
+  padding-top: 16px;
+  font-weight: lighter;
+  color: #e6c56a;
+}
+#atendimento #header-atendimento h3 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+#atendimento .conteudo-atendimento {
+  margin: 10px auto;
+  width: 80%;
+  text-align: center;
+  background-color: rgba(141, 123, 88, 0.8549019608);
+  border-radius: 16px;
+}
+#atendimento .conteudo-atendimento span {
+  font-size: 50px;
+}
+#atendimento .conteudo-atendimento p {
+  padding: 16px;
+  font-weight: bold;
 }
 
 #header {
