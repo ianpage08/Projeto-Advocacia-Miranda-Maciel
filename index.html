@@ -25,15 +25,15 @@
             <nav class="collapse navbar-collapse justify-content-end" id="menu">
                 <ul class="nav nav-pills navbar-nav">
                     <li class="nav-item menu-item"> <a href="#home" class="nav-link active">Home</a></li>
-                    <li class="nav-item menu-item"><a href="#" class="nav-link">Areas de Atuação</a></li>
-                    <li class="nav-item menu-item"><a href="#" class="nav-link">Sobre Nós</a></li>
-                    <li class="nav-item menu-item"><a href="#" class="nav-link">Entre Em Contato</a></li >
+                    <li class="nav-item menu-item"><a href="#areasdeatuacao" class="nav-link">Areas de Atuação</a></li>
+                    <li class="nav-item menu-item"><a href="#diferencial" class="nav-link">Sobre Nós</a></li>
+                    <li class="nav-item menu-item"><a href="#localização" class="nav-link">Entre Em Contato</a></li >
                 </ul>
             </nav>
         </div>
     </div>
     </header>
-    <main >
+    <main data-bs-spy="scroll" data-bs-target="header">
         <section id="home">
             <div class="container  ">
                 <div class="row">
@@ -239,7 +239,7 @@
                 <div class="container">
                     <div id="header-atendimento">
                         <h2>Atendimento</h2>
-                        <h3>Como Iniciar O Processo?</h3>
+                        <h3 >Como Iniciar O Processo?</h3>
                         <hr class="linha">
                     </div>
                     <div class="row">
@@ -286,7 +286,7 @@
                     </div>
                 </div>
                 <hr class="linha">
-                <div class="row">
+                <div class="row" id="equipe">
                     <div  class="col-md-12">
                     
                         <div class="row">
@@ -324,7 +324,7 @@
             <div class="container">
                 
                     <div class="row ">
-                        <div class="col-md-6 ">
+                        <div class="col-md-6 conteudo-localizão">
                             <div id="rua">
                                 <h2>Localizaçao</h2>
                                 <P>Rua Professor Rosalvo Ferreira dos Santos<br> N°32, Centro, Central-BA</P>
@@ -377,6 +377,11 @@
 
 
     <script src="lib/bootstrap.bundle-js.min.js"></script>
+    <script>
+        function scrollSection (elementId){
+            document.getElementById(elementId).scrollIntoView({behavior:"smooth"})
+        }
+    </script>
 </body>
 
 </html>
