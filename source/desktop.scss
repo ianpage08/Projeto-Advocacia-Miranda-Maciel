@@ -1,0 +1,25 @@
+@media screen and (min-width: 768px) {
+
+    
+    .foto{
+        padding-top: 40px;
+    }
+
+    #localização{
+        #mapa{
+            padding-top: 16px;
+            
+        }
+        
+        .conteudo-localizão{
+            text-align: left;
+            
+        }
+    }
+    #rodape{
+        #nome-advogados{
+            flex-flow: row wrap;
+            justify-content: space-between ;
+        }
+    }
+}
