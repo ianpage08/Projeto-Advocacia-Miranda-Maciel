@@ -200,8 +200,22 @@
   font-size: 18px;
 }
 
+#fundo-logo {
+  background-image: url(../imagens/direito1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#fundo-logo #logo-g {
+  text-align: center;
+}
+#fundo-logo #logo-g img {
+  max-width: 350px;
+  width: 100%;
+}
+
 #header {
-  background-color: #002954;
+  background-color: rgba(0, 41, 84, 0.5333333333);
   color: white;
 }
 #header .material-symbols-outlined {

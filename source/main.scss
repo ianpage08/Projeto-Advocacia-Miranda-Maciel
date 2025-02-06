@@ -9,9 +9,21 @@
 $corprincipal:'#002954';
 $corsecundaria:'#9C8051';
 $corcinza:'#5C5447';
+#fundo-logo{
+    background-image: url(../imagens/direito1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    #logo-g{
+    text-align: center;
+    img{
+        max-width: 350px;
+        width: 100%;
+    }
+}}
 #header{
     
-    background-color: #002954;
+    background-color: #00295488;
     color: white;
 
     .material-symbols-outlined{
@@ -36,6 +48,8 @@ $corcinza:'#5C5447';
             }
     }
 }
+
+
 #home{
     padding: 10px;
     h1{
