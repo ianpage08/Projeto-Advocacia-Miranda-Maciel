@@ -1,17 +1,23 @@
 #rodape{
-    height: 210px;
+    
     background-color: #002954;
     #logo-rodape{
         padding: 16px;
         text-align: center;
+        img{
+            width: 80px;
+        }
     }
 
     #nome-advogados{
         text-align: center;
         display: flex;
+        flex-flow: column wrap;
         justify-content: space-between ;
         color: white;
         padding: 0px 50px;
+        font-weight: bold;
+        font-size: 18px;
     }
     }
     
