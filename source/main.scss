@@ -9,6 +9,10 @@
 $corprincipal:'#002954';
 $corsecundaria:'#9C8051';
 $corcinza:'#5C5447';
+
+body{
+    overflow-x: hidden;
+}
 #fundo-logo{
     background-image: url(../imagens/direito1.png);
     background-size: cover;

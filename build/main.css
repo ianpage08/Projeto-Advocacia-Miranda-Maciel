@@ -156,7 +156,7 @@
 #nossa-equipe .foto {
   margin: 0 auto;
   border-radius: 50px 0px 10px 16px;
-  width: 350px;
+  width: 300px;
 }
 
 #localização {
@@ -198,6 +198,10 @@
   padding: 0px 50px;
   font-weight: bold;
   font-size: 18px;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 #fundo-logo {
