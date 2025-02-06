@@ -101,6 +101,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 #atendimento #header-atendimento {
   text-align: center;
@@ -226,6 +227,8 @@
 }
 body {
   overflow-x: hidden;
+  max-width: 1940px;
+  width: 100%;
 }
 
 #fundo-logo {
