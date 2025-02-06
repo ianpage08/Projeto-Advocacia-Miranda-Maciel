@@ -6,24 +6,27 @@
 @use'nossa-equipe.scss';
 @use 'localização.scss';
 @use 'rodape.scss';
+@use 'tela-tablet.scss';
 
 $corprincipal:'#002954';
 $corsecundaria:'#9C8051';
 $corcinza:'#5C5447';
 
 body{
-    overflow-x: hidden;
+    overflow-x:hidden;
+    
 }
 #fundo-logo{
     background-image: url(../imagens/direito1.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    position: static;
+    
     #logo-g{
     text-align: center;
     img{
-        max-width: 350px;
-        width: 100%;
+        width: 350px;
+        
     }
 }}
 #header{
