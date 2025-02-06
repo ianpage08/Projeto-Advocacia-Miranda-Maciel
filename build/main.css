@@ -151,6 +151,7 @@
   text-align: center;
 }
 #nossa-equipe .conteudo-equipe {
+  text-indent: 16px;
   padding: 24px;
 }
 #nossa-equipe .foto {
@@ -200,6 +201,31 @@
   font-size: 18px;
 }
 
+@media screen and (max-width: 768px) {
+  #img-home {
+    padding-top: 40px;
+  }
+  .t-equipe {
+    display: flex;
+    flex-flow: column;
+  }
+  .t-equipe .col-md-6 {
+    width: 100%;
+  }
+  #localização #mapa {
+    padding-top: 40px;
+  }
+  #localização #mapa iframe {
+    height: 350px;
+  }
+  #localização .conteudo-localizão {
+    text-align: left;
+  }
+  #rodape #nome-advogados {
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+}
 body {
   overflow-x: hidden;
 }
