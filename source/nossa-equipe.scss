@@ -33,21 +33,26 @@
         text-align: center;
         margin-top: 26px;
         padding-bottom: 24px;
-        
+        & :hover{
+            transition: 0.5s;
+                background-color: #CCB474;
+            }
         button{
-            margin: 0px 16px;
-            border-radius: 16px;
+            margin: 5px;
+            border-radius: 50%;
             font-weight: bold;
             font-size: 2em;
             cursor: pointer;
             border: none;
             text-align: center;
             padding: 8px;
-        }
-        & :hover{
-            transition: 0.5s;
-                background-color: #CCB474;
+            
+            img{
+                margin: 5px;
+                width: 55px;
             }
+        }
+        
     }
     #texto-1 , #texto-2{
         padding-top: 20px;
